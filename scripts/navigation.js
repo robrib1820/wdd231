@@ -18,4 +18,22 @@ const navBar = document.querySelector("#nav-bar");
 function teste(){
     console.log(age)
 }
-t
+
+//Wayfinding
+
+const navLinks = document.querySelectorAll("#nav-bar a");
+const pageTitle = document.getElementById("pageTitle");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        document.querySelectorAll("#nav-bar li").forEach(li => {
+            li.classList.remove("current");
+        });
+
+        link.parentElement.classList.add("current");
+        
+        pageTitle.textContent = link.textContent;
+    })
+})

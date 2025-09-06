@@ -2,13 +2,14 @@
 
 /****************SITE WIDE****************/
 * {
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
 
 /****************HEADER****************/
 body {
     background-color: #D9D3CC;
+    font-family: "Roboto Flex", sans-serif;
 }
 header {
     display: grid;
@@ -36,7 +37,7 @@ header span {
     background: none;
     border: none;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .hamburger::before {
@@ -67,9 +68,7 @@ header span {
     display: block;
     border-bottom: solid 1px #ddd;
     color: #F2EEEB;
-}
-.navigation li.current {
-    background-color: #A68C7C;
+    font-family: "Montserrat", sans-serif;
 }
 .navigation a:hover {
     background-color: #F2EEEB;
@@ -78,6 +77,7 @@ header span {
 }
 h1 {
     margin-left: 10px;
+    color: #73655A;
 }
 
 /****************Footer****************/
@@ -92,6 +92,7 @@ footer {
     display: flex;
     justify-content: center;
     column-gap: 8px;
+    margin-bottom: 10px;
 }
 .social a {
     display: flex;
@@ -121,7 +122,10 @@ footer {
     padding: 10px;
     border-radius: 4px;
 }
-
+#aboutPar {
+    font-size: 1.5rem;
+    text-align: justify;
+}
 .section {
     padding: .8rem 10px;
 }
@@ -131,6 +135,7 @@ h2 {
     color: #D9D3CC;
     padding: 5px;
     border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -153,4 +158,44 @@ img {
     padding: 20px;
     width: 80px;
     border-radius: 4px;
+}
+span {
+    font-family: "Montserrat", sans-serif;
+}
+
+/****************CERTIFICATES BUTTONS****************/
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #F2EEEB;
+    font-weight: bold;
+    border-radius: 4PX;
+}
+button:hover {
+    background-color: #73655A;
+    color: #F2EEEB;
+}.course {
+    background: #F2EEEB;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.course h4 {
+  margin: 8px;
+  color: #73655A;
+}
+.creditsTotal {
+    color: #F2EEEB;
+    font-family: "Montserrat", sans-serif;
+}
+
+/***********************WAYFINDING***************************/
+
+section:target {
+    display: block;
+}
+section#home {
+    display: block;
 }

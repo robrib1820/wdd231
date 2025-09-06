@@ -9,7 +9,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true 
     },
     {
         subject: 'WDD',
@@ -22,7 +22,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true 
     },
     {
         subject: 'CSE',
@@ -34,7 +34,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true 
     },
     {
         subject: 'CSE',
@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true 
     },
     {
         subject: 'WDD',
@@ -60,7 +60,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true 
     },
     {
         subject: 'WDD',
@@ -77,3 +77,35 @@ const courses = [
         completed: false
     }
 ]
+
+/*FUNCTION TO FILTER THE CHOICE OF THE USER AND CREATE THE NEW ARRAY ACCORDING TO USER CLICK ON SPECIFIC BUTTOM*/
+function showCourse(selection) {
+    const list = document.getElementById("courseList");
+    list.innerHTML = ''; 
+    let coursesFiltered = [];
+
+    if (selection === "ALL") {
+        coursesFiltered = courses;
+    } else if (selection === "CSE") {
+        coursesFiltered = courses.filter(x => x.subject.includes("CSE"));
+    } else if (selection === "WDD") {
+        coursesFiltered = courses.filter(x => x.subject === "WDD");
+    }
+
+/*RENDER AND CREATE THE INFORMATION ON THE SCREEN BASED ON THE USER CHOICE*/
+coursesFiltered.forEach(x => {
+    const div = document.createElement("div");
+    div.className = "course";
+    div.innerHTML = 
+    `<h4>${x.subject} ${x.number}</h4>`;
+
+    list.appendChild(div);
+})
+
+const creditsTotal = coursesFiltered.reduce((sum, course) => sum + course.credits, 0);
+
+const total = document.createElement("p");
+total.className = "creditsTotal";
+total.innerHTML = `The total credits for course listed above is ${creditsTotal}`;
+list.appendChild(total);
+}
