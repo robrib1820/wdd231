@@ -3,28 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My development page in the course WDD 231: Web Front End Development I">
+    <meta name="author" content="Robson Ribeiro">
     <title>Document</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+
 </head>
 <body>
     <header>
-        <img src="images/home.svg" alt="Site Logo" width="512" height="512">
+        <img src="images/house.svg" alt="Site Logo" width="512" height="512">
         <span>Robson's Site Title</span>
         <button id="ham-btn" class="hamburger"></button>
     </header>
 
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="#">News & events</a></li>
-            <li><a href="#"> Dedicated Temples</a></li>
-            <li><a href="#">Announced Temples</a></li>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber of Commerce</a></li>
+            <li><a href="#">Final Project</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1>News & Events</h1>
+        <h1>Home</h1>
+        <div id="main">
+            <section id="aboutMe" class="section">
+            <h2>About Me</h2>
+            <p>My name is Robson Ribeiro. I'm 25 years old and currently studying at BYU Idaho, pursuing my bachelor's degree in software development. I've been married to my beloved Eliza for almost four years, and we're very happy together. I currently serve as the secretary of the Londrina Stake in Brazil. I love playing video games, drinking plenty of chimarrão, and spending time with my family.</p>
+            </section>
+            <section id="profile" class="section">
+                <h2>Student Photo</h2>
+                <img src="images/me.webp" alt="Robson's Photo">
+            </section>
+
+            <section id="certificates" class="section">
+                <h2>Web Certificate Courses</h2>
+                <div id="modules">
+                    <p>All</p>
+                    <p>CSE</p>
+                    <p>WDD</p>
+                </div>
+                <p>WDD 130</p>
+                <p>WDD 131</p>
+                <p>WDD 231</p>
+                <p>The total credits for course listed above is 6</p>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="social">
@@ -37,9 +66,9 @@
             <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram Website"></a>
 
         </div>
-        <p>Copyright symbol</p>
-        <p>Last Modified</p>
+    
+        <span id="currentyear"></span> <br>
+        <span id="lastModified"></span>
     </footer>
-    <script src="scripts/navigation.js"></script>
 </body>
 </html>
