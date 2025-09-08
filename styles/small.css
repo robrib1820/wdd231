@@ -199,3 +199,7 @@ section:target {
 section#home {
     display: block;
 }
+.current {
+    background-color: #A68C7C;
+    border-radius: 2px;
+}
