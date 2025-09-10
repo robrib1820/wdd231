@@ -1,0 +1,20 @@
+{
+    "familyName" : "Ribeiro",
+    "dataMovedToWard" : 2021,
+    "numberOfRecords" : 2,
+    "isVisited" : false,
+    "additionalInformation" : {
+        "members" : [
+            {
+                "name" : "Robson Ribeiro",
+                "gender" : 25,
+                "birthdate" : "December 12th"
+            },
+            {
+                "name" : "Karlyn Eliza Ribeiro",
+                "gender" : 28,
+                "birthdate" : "July 7th"
+            }
+        ]
+    }
+}
