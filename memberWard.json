@@ -16,5 +16,14 @@
                 "birthdate" : "July 7th"
             }
         ]
+    },
+
+    "address": { 
+        "city": "New York",
+        "zipcode": "10001",
+        "isStudent": false,
+        "isActive": null,
+        "hobbies": ["reading", "traveling"]
     }
+    
 }

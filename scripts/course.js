@@ -109,3 +109,4 @@ total.className = "creditsTotal";
 total.innerHTML = `The total credits for course listed above is ${creditsTotal}`;
 list.appendChild(total);
 }
+
