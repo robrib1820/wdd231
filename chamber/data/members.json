@@ -1,7 +1,7 @@
 [
   {
     "name": "Sercomtel",
-    "address": "Londrina, PR",
+    "address": "Av Ayrton Senna da Silva, 1055, R. Dr. Dimas de Barros, 61 - Loja 5 2a entrada, Londrina, PR",
     "phone": "+55 43 3371-1111",  
     "website": "https://www.sercomtel.com.br",
     "image": "../chamber/images/sercomtel.webp",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Grupo Muffato",
-    "address": "Londrina, PR",
+    "address": "Av. Duque de Caxias, 1200, Centro, Londrina, PR",
     "phone": "+55 43 3324-2000",
     "website": "https://www.muffato.com.br",
     "image": "../chamber/images/muffato.webp",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Cooperativa Integrada Agroindustrial",
-    "address": "Londrina, PR",
+    "address": "Rua São Jerônimo 200, Centro, Londrina, PR",
     "phone": "+55 43 3372-1000",
     "website": "https://www.integrada.coop.br",
     "image": "../chamber/images/cooperativa.webp",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Belagrícola",
-    "address": "Londrina, PR",
+    "address": "Av. Ayrton Senna da Silva, 600, Gleba Fazenda Palhano, Londrina, PR",
     "phone": "+55 43 3338-8000",
     "website": "https://www.belagricola.com.br",
     "image": "../chamber/images/belagricola.webp",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Plaenge",
-    "address": "Londrina, PR",
+    "address": "Av. Me. Leônia Milito, 1700, Bela Suiça, Londrina, PR",
     "phone": "+55 43 3338-3300",
     "website": "https://www.plaenge.com.br",
     "image": "../chamber/images/plaenge.webp",
@@ -61,9 +61,9 @@
   },
   {
     "name": "Conasa Infraestrutura S.A.",
-    "address": "Londrina, PR",
+    "address": "Av. Higienópolis, 1601, Jardim Higienopolis, Londrina, PR",
     "phone": "+55 43 3373-8000",
-    "website": "https://www.conasa.com.br",
+    "website": "https://www.conasa.com/",
     "image": "../chamber/images/conasa.webp",
     "membershipLevel": 2,
     "sector": "Infraestrutura / Saneamento",
