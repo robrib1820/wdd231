@@ -9,8 +9,9 @@
 /****************HEADER****************/
 body {
     background-color: #ffffff;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "Crimson Pro", serif;
 }
+
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
@@ -67,7 +68,7 @@ header span {
     padding: .8rem 10px;
     display: block;
     color: #ffffff;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Volkhov", serif;
 }
 .navigation a:hover {
     background-color: #003057;
@@ -91,6 +92,7 @@ header span {
         background-color: #003057;
         color: #ffffff;
         border: 1px solid #b0eefc;
+        font-family: "Kanit", sans-serif;
     }
     
 }
@@ -173,7 +175,7 @@ section {
 		}
 	}
 }
-h2 {
+h1 {
     color: #ffffff;
     padding: 5px;
     font-family: "Montserrat", sans-serif;
