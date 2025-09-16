@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Sercomtel",
+    "address": "Londrina, PR",
+    "phone": "+55 43 3371-1111",  
+    "website": "https://www.sercomtel.com.br",
+    "image": "../chamber/images/sercomtel.webp",
+    "membershipLevel": 3,
+    "sector": "Telecomunicações",
+    "description": "Empresa de telefonia fixa, móvel e banda larga sediada em Londrina."  
+  },
+  {
+    "name": "London Marcas e Patentes",
+    "address": "Av. Juscelino Kubitschek, 3280, Vila Ipiranga, Londrina, PR",
+    "phone": "(43) 3336-6000",  
+    "website": "https://londonmarcas.com",
+    "image": "../chamber/images/london.webp",
+    "membershipLevel": 2,
+    "sector": "Serviços Jurídicos / Propriedade Intelectual",
+    "description": "Especialistas em registro de marcas e patentes, consultoria de propriedade intelectual."  
+  },
+  {
+    "name": "Grupo Muffato",
+    "address": "Londrina, PR",
+    "phone": "+55 43 3324-2000",
+    "website": "https://www.muffato.com.br",
+    "image": "../chamber/images/muffato.webp",
+    "membershipLevel": 3,
+    "sector": "Varejo / Supermercados",
+    "description": "Rede varejista com diversas bandeiras no Paraná, grande empregadora em Londrina."  
+  },
+  {
+    "name": "Cooperativa Integrada Agroindustrial",
+    "address": "Londrina, PR",
+    "phone": "+55 43 3372-1000",
+    "website": "https://www.integrada.coop.br",
+    "image": "../chamber/images/cooperativa.webp",
+    "membershipLevel": 3,
+    "sector": "Agronegócio",
+    "description": "Cooperativa com atuação em insumos, assistência técnica e comercialização de grãos."  
+  },
+  {
+    "name": "Belagrícola",
+    "address": "Londrina, PR",
+    "phone": "+55 43 3338-8000",
+    "website": "https://www.belagricola.com.br",
+    "image": "../chamber/images/belagricola.webp",
+    "membershipLevel": 2,
+    "sector": "Agronegócio / Insumos",
+    "description": "Distribuição de insumos agrícolas, unidade de armazenagem e operação regional."  
+  },
+  {
+    "name": "Plaenge",
+    "address": "Londrina, PR",
+    "phone": "+55 43 3338-3300",
+    "website": "https://www.plaenge.com.br",
+    "image": "../chamber/images/plaenge.webp",
+    "membershipLevel": 3,
+    "sector": "Construção Civil / Imobiliário",
+    "description": "Construtora e incorporadora de empreendimentos residenciais e comerciais."  
+  },
+  {
+    "name": "Conasa Infraestrutura S.A.",
+    "address": "Londrina, PR",
+    "phone": "+55 43 3373-8000",
+    "website": "https://www.conasa.com.br",
+    "image": "../chamber/images/conasa.webp",
+    "membershipLevel": 2,
+    "sector": "Infraestrutura / Saneamento",
+    "description": "Empresa de concessões, saneamento, rodovias e infraestrutura presente em vários estados."  
+  }
+]

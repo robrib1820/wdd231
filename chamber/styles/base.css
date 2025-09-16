@@ -1,0 +1,217 @@
+/*VERIFY MY COLOR SCHEME*/
+
+/****************SITE WIDE****************/
+* {
+    box-sizing: border-box;
+}
+
+
+/****************HEADER****************/
+body {
+    background-color: #ffffff;
+    font-family: "Roboto Flex", sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 6px;
+}
+
+header span {
+    font-size: 1.5rem;
+    color: #003057;
+}
+
+/****************HAMBURGER NAVIGATION****************/
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+.hamburger.show::before {
+    content: "\00d7";
+    font-size: 2rem;
+}
+
+/****************NAV BAR****************/
+.navigation {
+    display: none;
+    background-color: #006184;
+}
+.navigation.show {
+    display: block;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation a {
+    text-decoration: none;
+    padding: .8rem 10px;
+    display: block;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+.navigation a:hover {
+    background-color: #003057;
+    border-radius: 2px;
+}
+/****************MAIN****************/
+#main {
+    display: block;
+}
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	background-color: #007da5;
+	text-align: center;
+
+	button {
+		padding: 0.5rem 1rem;
+		font-weight: 700;
+	}
+    #grid:hover, #list:hover {
+        background-color: #003057;
+        color: #ffffff;
+        border: 1px solid #b0eefc;
+    }
+    
+}
+section {
+	border: 1px solid rgb(0 0 0 / 10%);
+	padding: 0.5rem;
+	background-color: #b0eefc;
+
+	a {
+		font-family: Arial, sans-serif;
+		font-size: 0.85rem;
+		color: rgb(0, 0, 119);
+	}
+
+	h3 {
+		font-size: 1.5rem;
+	}
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+
+	section {
+		text-align: center;
+		margin: 0.1rem;
+        width: auto;
+        height: 320px;
+	}
+    h4 {
+        color: #003057;
+    }
+    p {
+        color: #000000;
+        font-size: small;
+    }
+    a {
+        text-decoration: none;
+        padding: 10px;
+        background-color: #006184;
+        color: #ffffff;
+        border-radius: 2px;
+    }
+    a:hover {
+        background-color: #003057;
+    }
+
+
+
+	img {
+		box-shadow: 0 0 1rem #ffffff;
+	}
+}
+.list {
+	display: flex;
+	flex-direction: column;
+
+	section {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		margin: 0;
+		padding: 0.25rem;
+
+		img {
+			display: none;
+		}
+
+		h4 {
+			font-size: 1.2rem;
+            color: #003057;
+		}
+        a {
+        text-decoration: none;
+        color: #003057;
+    }
+
+		&:nth-child(even) {
+			background-color: #ffffff;
+		}
+	}
+}
+h2 {
+    color: #ffffff;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 110px;   
+  height: auto;
+  border-radius: 5px; 
+}
+
+/***********************WAYFINDING***************************/
+.current {
+    background-color: #003057;
+    border-radius: 2px;
+}
+/****************Footer****************/
+footer {
+    background-color: #007da5;
+    padding: 1rem 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 10px;
+}
+.social a {
+    display: flex;
+    border: #ffffff solid 1px;
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+.social img {
+    width: 22px;
+    height: 22px;
+}
