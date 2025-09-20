@@ -77,7 +77,7 @@ header span {
 /**********************MAIN HOME**************************/
 
 #section-home > div {
-  border: 1px red solid;
+  box-shadow: 1px 1px 5px#003057;
   padding: 10px;
 }
 #section-home h3 {
