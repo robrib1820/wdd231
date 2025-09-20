@@ -28,4 +28,10 @@
     gap: 20px;
     background-color: #ffffff;
 }
+
+    #section-home {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
 }
