@@ -7,9 +7,11 @@
 
 
 /****************HEADER****************/
-body {
+html, body {
     background-color: #ffffff;
     font-family: "Crimson Pro", serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -80,6 +82,11 @@ header span {
   box-shadow: 0 2px 3px #003057;
   padding: 10px;
 }
+#section-home {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
 #section-home h2 {
   background: #b0eefc;
   color: #003057;
@@ -102,8 +109,12 @@ header span {
     color: #003057;
     font-size: 1.2rem;
 }
-#expo-video {
-    text-align: center;
+#expo-video iframe {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/8;
+    
 }
 #weatherCard {
   display: flex;
@@ -112,7 +123,7 @@ header span {
   flex-wrap: wrap;
   color: #003057;
 }
-#weathe-icon  {
+#weather-icon  {
     width: 70px;
     height: 70px;
 }
@@ -127,6 +138,10 @@ header span {
 }
 #forecastCard > p {
     color: #003057;
+}
+#section-business {
+    color: #003057;
+    text-align: center;
 }
 #section-business a {
     text-decoration: none;
