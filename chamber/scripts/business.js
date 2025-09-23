@@ -17,40 +17,44 @@ async function getBusiness() {
 }
 
 function getBusinessMember(business) {
+  const selected = [];
+  while (selected.length < 3) {
+    const indexRandom = Math.floor(Math.random() * business.length);
+    if (!selected.includes(business[indexRandom])) {
+      selected.push(business[indexRandom]);
+    }
+  }
+  selected.forEach((business) => {
+    const card = document.createElement("div");
+    const name = document.createElement("h3");
+    name.textContent = business.name;
 
-    business.forEach((business, index) => {
-        if (index < 3) {
-            const card = document.createElement("div");
-            const name = document.createElement("h3");
-            name.textContent = business.name;
+    const logo = document.createElement("img");
+    logo.setAttribute("src", business.image);
+    logo.setAttribute("alt", `${business.name} logo image`);
+    logo.setAttribute("loading", "lazy");
 
-            const logo = document.createElement("img");
-            logo.setAttribute("src", business.image);
-            logo.setAttribute("alt", `${business.name} logo image`);
-            logo.setAttribute("loading", "lazy");
+          
+    const sector = document.createElement("p");
+    sector.textContent = business.sector;
 
-            
-            const sector = document.createElement("p");
-            sector.textContent = business.sector;
+      
+    const phone = document.createElement("p");
+    phone.textContent = business.phone;
 
-        
-            const phone = document.createElement("p");
-            phone.textContent = business.phone;
+          
+    const website = document.createElement("a");
+    website.href = business.website;
+    website.textContent = "Take a look";
 
-            
-            const website = document.createElement("a");
-            website.href = business.website;
-            website.textContent = "Take a look";
+    card.appendChild(name);
+    card.appendChild(logo);
+    card.appendChild(sector);
+    card.appendChild(phone);
+    card.appendChild(website);
 
-            card.appendChild(name);
-            card.appendChild(logo);
-            card.appendChild(sector);
-            card.appendChild(phone);
-            card.appendChild(website);
-
-            businessCards.appendChild(card);
-        }
-        
-    });
+    businessCards.appendChild(card);
+    }
+  );
 }
 getBusiness();

@@ -77,15 +77,33 @@ header span {
 /**********************MAIN HOME**************************/
 
 #section-home > div {
-  box-shadow: 1px 1px 5px#003057;
+  box-shadow: 0 2px 3px #003057;
   padding: 10px;
 }
-#section-home h3 {
+#section-home h2 {
   background: #b0eefc;
   color: #003057;
   margin: -10px -10px 10px -10px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+#section-home h3 {
+  color: #003057;
+  margin: -10px -10px 10px -10px;
+  padding: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#section-home p {
+    text-align: center;
+}
+#section-home h4 {
+    text-align: center;
+    color: #003057;
+    font-size: 1.2rem;
+}
+#expo-video {
+    text-align: center;
 }
 #weatherCard {
   display: flex;
@@ -110,10 +128,9 @@ header span {
 #forecastCard > p {
     color: #003057;
 }
-
-#section-business {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+#section-business a {
+    text-decoration: none;
+    color: #006184;
 }
 
 
