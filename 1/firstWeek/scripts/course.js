@@ -97,10 +97,13 @@ coursesFiltered.forEach(x => {
     const div = document.createElement("div");
     div.className = "course";
     div.innerHTML = 
-    `<h4>${x.subject} ${x.number}</h4>`;
+    `<button><h4>${x.subject} ${x.number}</h4></button>`;
 
     list.appendChild(div);
 })
+
+
+
 
 const creditsTotal = coursesFiltered.reduce((sum, course) => sum + course.credits, 0);
 
