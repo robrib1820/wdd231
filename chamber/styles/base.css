@@ -218,3 +218,69 @@ footer {
     width: 22px;
     height: 22px;
 }
+/***********************JOIN***************************/
+
+.join {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+form {
+    background-color: #b0eefc;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea, form select {
+    padding: 8px;
+    border: 1px solid #006184;
+    border-radius: 4px;
+}
+
+form button {
+  background-color: #003057;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+    background-color: #006184;
+}
+.card {
+    background-color: #006184;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 4px;
+}
+.card a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#thank-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#results {
+    font-size: 1.2rem;
+    width: 600px;
+    height: auto;
+    padding: 50px;
+    justify-content: right;
+}
+#thanks {
+    background-color: #b0eefc;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#thanks h1 {
+    font-size: 3rem;
+}

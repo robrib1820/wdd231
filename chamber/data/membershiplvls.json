@@ -1,0 +1,48 @@
+{
+  "memberships": [
+    {
+      "name": "NP Membership",
+      "type": "Non-Profit",
+      "fee": 0,
+      "description": "Membership for non-profit organizations with no fee.",
+      "benefits": [
+        "Access to basic resources",
+        "Newsletter subscription",
+        "Community updates"
+      ]
+    },
+    {
+      "name": "Bronze Membership",
+      "fee": 50,
+      "description": "Entry-level membership with basic benefits.",
+      "benefits": [
+        "Access to members-only events",
+        "Participation in training sessions",
+        "Listing on the members page"
+      ]
+    },
+    {
+      "name": "Silver Membership",
+      "fee": 100,
+      "description": "Intermediate membership with additional perks.",
+      "benefits": [
+        "All Bronze benefits",
+        "Discounts on events",
+        "Featured spot on the website homepage",
+        "Priority registration for workshops"
+      ]
+    },
+    {
+      "name": "Gold Membership",
+      "fee": 200,
+      "description": "Premium membership with maximum benefits.",
+      "benefits": [
+        "All Silver benefits",
+        "Exclusive access to special events",
+        "Prominent advertising opportunities",
+        "One-on-one consultation sessions",
+        "Recognition in newsletters and social media"
+      ]
+    }
+  ]
+}

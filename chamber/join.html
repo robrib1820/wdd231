@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- My meta tags -->
+    <meta name="description" content="Website of a chamber of commerce in Londrina">
+    <meta name="author" content="Robson Ribeiro">
+     <!-- Social Media Meta tags FOR FACEBOOK -->
+    <meta property="og:title" content="Robson's Web Page">
+    <meta property="og:description" content="This is a website for the Chamber of Commerce in Londrina, where local managers provide information to help businesses grow in the city.">
+    <meta property="og:url" content="https://robrib1820.github.io/wdd231/chamber/images/londrina_3.webp">
+    <meta property="og:image" content="https://robrib1820.github.io/wdd231/chamber/images/londrina_3.webp">
+
+    <!-- My favicon -->
+    <link rel="icon"  href="images/favicon_bold.ico">
+
+    <!-- My google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- My CSS sheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- My Scripts -->
+    <script src="scripts/membership.js" defer></script>
+    <title>Londrina Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <img src="images/londrina_3.webp" alt="Site Logo" width="512" height="512">
+        <span>Londrina Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+
+    <main class="join">
+        <form method="get" action="thankyou.html" class="design">
+            <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+            <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name" ></label>
+            <label>Organizational title <input type="text" name="organizational" required autocomplete="organization-title" title="Your Organizational Title"></label>
+            <label>Email <input type="email" name="email" required autocomplete="email" placeholder="yourname@gmail.com" title="Your Email"></label>
+            <label>Phone <input type="tel" name="phone" required autocomplete="tel" title="Phone Number" placeholder="999-999-9999"></label>
+            <label>Business Name <input type="text" name="business" required autocomplete="organization" title="Business"></label>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label>
+                    <input type="radio" name="membership" value="NP Membership" required>
+                    NP Membership for non profit organizations - no fee
+                </label>
+                <label> <input type="radio" name="membership" value="Bronze Membership">
+                    Bronze Membership
+                </label>
+                <label> <input type="radio" name="membership" value="Silver Membership">
+                    Silver Membership
+                </label>
+                <label> <input type="radio" name="membership" value="Gold Membership">
+                    Gold Membership
+                </label>
+            </fieldset>
+            <label for="description"> Business Description:</label>
+            <textarea name="description" id="description" title="Business Description"></textarea>
+
+            <input type="hidden" id="timeStamp" name="timeStamp">
+
+            <button type="submit">Join Us</button>
+        </form>
+        <section class="cards-section">
+            <div class="card">
+                <h4>Non Profit Membership Level</h4>
+                <button class="myButton">Learn More</button>
+            </div>
+            <div class="card">
+                <h4>Bronze Membership Level</h4>
+                <button class="myButton">Learn More</button>
+            </div>
+            <div class="card">
+                <h4>Silver Membership Level</h4>
+                <button class="myButton">Learn More</button>
+            </div>
+            <div class="card">
+                <h4>Gold Membership Level</h4>
+                <button class="myButton">Learn More</button>
+            </div>
+        </section>
+    </main>
+    <dialog id="mydialog">
+        <button id="closeModal">X</button>
+        <div id="showHere"></div>
+    </dialog>
+
+    <footer>
+
+        <div>
+            <h4>Londrina Chamber of Commerce</h4>
+            <span>R. Me. Henriqueta Dominici, 750</span>
+            <span>(55)43991285667</span>
+        </div>
+
+        <div class="social">
+            <a href="https://github.com/"><img src="images/github.svg" alt="GitHub Website"></a>
+
+            <a href="https://www.linkedin.com/in/robsonnevesribeiro/"><img src="images/linkedin.svg" alt="Linkedin Website"></a>
+
+            <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="YouTube Website"></a>
+
+            <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram Website"></a>
+        </div>
+        
+            <span id="currentyear"></span> <br>
+            <span id="lastModified"></span>
+    </footer>
+</body>
+</html>
