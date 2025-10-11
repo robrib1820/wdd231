@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+/****************HEADER****************/
+html, body {
+    background-color: #1B1F26;
+    font-family: "Roboto Slab";
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+header img.logo {
+    width: 250px;
+    height: auto;
+    padding-bottom: 6px;
+}
+
+/****************HAMBURGUER BUTTOM****************/
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #F2F2F2;
+}
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+.hamburger.show::before {
+    content: "\00d7";
+    font-size: 2rem;
+}
+/****************NAV BAR****************/
+.navigation {
+    display: none;
+}
+.navigation a.current{
+    background-color: #F2F2F2;
+    color: #BF0436;
+}
+.navigation.show {
+    display: block;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation a {
+    text-decoration: none;
+    padding: .8rem 10px;
+    display: block;
+    color: #F2F2F2;
+    background-color: #BF0436;
+    font-family: "Oswald";
+}
+.navigation a:hover {
+    background-color: #F2F2F2;
+    color: #BF0436;
+    border-radius: 1px;
+}
+/****************MAIN****************/
+main {
+    text-align: center;
+    background-color: #F2F2F2;
+    padding: 3rem;
+    color: #1B1F26;
+}
+button {
+    padding: 1rem;
+    background-color: #D9936A;
+    border-radius: 1px;
+    border: none;
+}
+button:hover {
+    color: #D9936A;
+    background-color: #1B1F26;
+}
+
+.exercise-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.exercise-card {
+  background: #D9936A;
+  color: #1B1F26;
+  border-radius: 1px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 220px;
+  text-align: center;
+  padding: 10px;
+}
+
+.exercise-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/************FOOTER************/
+footer {
+    padding: 1rem 10px;
+    text-align: center;
+    color: #BF0436;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-top: 10px;
+}
+.social a {
+    display: flex;
+    border: #D9936A solid 1px;
+    border-radius: 1px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+.social img {
+    width: 22px;
+    height: 22px;
+}
+/***************FORMS*************/
+form.design {
+  max-width: 550px;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Labels e inputs */
+form.design label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #1B1F26;
+}
+
+form.design input[type="text"],
+form.design input[type="email"],
+form.design input[type="tel"],
+form.design input[type="number"],
+form.design textarea {
+  padding: 0.6rem 0.8rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+/* Textarea */
+form.design textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+form.design fieldset {
+  border: 1px solid #BF0436;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+form.design legend {
+  font-weight: bold;
+  color: #BF0436;
+}
+
+form.design input[type="radio"] {
+  margin-right: 0.5rem;
+}
+/* Botão */
+form.design button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background: #C80036;
+  color: #F2F2F2;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+form.design button:hover {
+  background: #F22E2E;
+}
+.card-section {
+    width: 550px;
+    height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url('../images/personalNutri.webp');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cards {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card button{
+    background: #BF0436;
+    color: #F2F2F2;
+    transition: background 0.3s, transform 0.2s;
+}
+.card button:hover {
+    background: #F22E2E;
+}
+
+/**************subscription******************/
+#subscription {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#results {
+    font-size: 1.2rem;
+    width: 600px;
+    height: auto;
+    padding: 50px;
+    color: #1B1F26;
+    text-align: center;
+    justify-content: center;
+}
+#subscription {
+    background-color: #D9936A;
+    color: #1B1F26;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#subscription h1 {
+    font-size: 3rem;
+}
+
+/*****MODAL****/
+.nutri, .personal {
+    max-width: 500px;
+}
+#mydialog {
+    position: relative;
+    background: #F2F2F2;
+    color: #BF0436;
+    padding: 2rem;
+    border: 2px solid black;
+    max-width: 400px;
+}
+#closeModal {
+    position: absolute;
+    background: #F2F2F2;
+    top: 10px;
+    right: 10px;
+    color: #1B1F26;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

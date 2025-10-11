@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energyn</title>
+
+    <!-- My meta tags -->
+    <meta name="description" content="Website of a chamber of commerce in Londrina">
+    <meta name="author" content="Robson Ribeiro">
+     <!-- Social Media Meta tags FOR FACEBOOK -->
+    <meta property="og:title" content="Robson's Web Page">
+    <meta property="og:description" content="This is a website for the Chamber of Commerce in Londrina, where local managers provide information to help businesses grow in the city.">
+    <meta property="og:url" content="https://robrib1820.github.io/wdd231/chamber/images/londrina_3.webp">
+    <meta property="og:image" content="https://robrib1820.github.io/wdd231/chamber/images/londrina_3.webp">
+    
+    <link rel="icon" href="images/favicon.ico">
+    <!-- My fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- My styles  -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!-- My scripts -->
+     <script src="scripts/navigation.js" defer></script>
+     <script type="module" src="scripts/exercises.js"></script>
+     <script src="scripts/modal.js" defer></script>
+</head>
+<body>
+     <div id="div-nav">
+          <header>
+               <img class="logo" src="images/logo.webp" alt="Energyn Logo Image">
+               <button id="ham-btn" class="hamburger"></button>
+          </header>
+          <nav id="nav-bar" class="navigation">
+               <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a class="current" href="consultancy.html">Consultancy</a></li>
+               </ul>
+          </nav>
+     </div>
+   
+   <main class="consultancy">
+        <form method="get" action="subscription.html" class="design">
+            <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+            <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name" ></label>
+            <label>Email <input type="email" name="email" required autocomplete="email" placeholder="yourname@gmail.com" title="Your Email"></label>
+            <label>Phone <input type="tel" name="phone" required autocomplete="tel" title="Phone Number" placeholder="999-999-9999"></label>
+            <label>Body Weight(kg)<input type="number" name="weight" required min="0" step="0.1" placeholder="70.5" title="Your Body Weight in kg"></label>
+            <fieldset>
+                <legend>Experience Level</legend>
+                <label>
+                <input type="radio" name="experience" value="beginner" required>
+                Beginner
+                </label>
+                <label>
+                <input type="radio" name="experience" value="intermediate">
+                Intermediate
+                </label>
+                <label>
+                <input type="radio" name="experience" value="advanced">
+                Advanced
+                </label>
+            </fieldset>
+            <label for="description">Notes:</label>
+            <textarea name="description" id="description" title="Description"></textarea>
+
+            <input type="hidden" id="timeStamp" name="timeStamp">
+
+            <button type="submit">Apply here</button>
+        </form>
+        <section class="card-section">
+            <div class="cards">
+                <div class="card">
+                    <h4>Personal trainer</h4>
+                    <button id="myPersonalButton">See information</button>
+                </div>
+                <div class="card">
+                    <h4>Nutritionist</h4>
+                    <button id="myNutriButton">See information</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <dialog id="mydialog">
+        <button id="closeModal">X</button>
+        <div id="showHere"></div>
+    </dialog>
+   
+   <footer>
+        <div>
+            <h4>Energyn</h4>
+        </div>
+
+        <div class="social">
+            <a href="https://github.com/"><img src="images/github.svg" alt="GitHub Website"></a>
+
+            <a href="https://www.linkedin.com/in/robsonnevesribeiro/"><img src="images/linkedin.svg" alt="Linkedin Website"></a>
+
+            <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="YouTube Website"></a>
+
+            <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram Website"></a>
+        </div>
+   </footer>
+</body>
+</html>

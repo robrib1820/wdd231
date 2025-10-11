@@ -1,0 +1,49 @@
+@media only screen and (min-width: 38rem) {
+
+    /****************HAMBURGUER BUTTOM****************/
+    
+    #div-nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        
+    }
+    .navigation ul {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+    .navigation a {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color: #1B1F26;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 1.5rem 4rem;
+        gap: 5rem;
+    }
+    header img {
+        width: 13rem;
+        height: auto;
+    }
+    /****************MAIN****************/
+    #main-btn {
+        color: #1B1F26;
+        padding: .8rem;
+        font-size: large;
+        font-weight: 700;
+    }
+    .consultancy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

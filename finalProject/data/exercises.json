@@ -1,0 +1,152 @@
+{
+  "workoutA": [
+    {
+      "name": "Barbell Bench Press",
+      "muscleGroup": "Chest",
+      "description": "Lie on a flat bench and push the barbell from your chest until your arms are extended.",
+      "sets": 4,
+      "rest": "60-90s",
+      "gifUrl": "https://api.exercisedb.io/image/b4N7bK5"
+    },
+    {
+      "name": "Incline Dumbbell Press",
+      "muscleGroup": "Chest",
+      "description": "Lie on an incline bench and push the dumbbells toward the ceiling until your arms are extended.",
+      "sets": 3,
+      "rest": "60s",
+      "gifUrl": "https://api.exercisedb.io/image/F1G2fH"
+    },
+    {
+      "name": "Cable Crossover",
+      "muscleGroup": "Chest",
+      "description": "Pull the cables across your body until your hands meet in front of your chest.",
+      "sets": 3,
+      "rest": "45-60s",
+      "gifUrl": "https://api.exercisedb.io/image/Pw3Qd2"
+    },
+    {
+      "name": "Skull Crusher",
+      "muscleGroup": "Triceps",
+      "description": "Lie on a bench, lower the bar to your forehead, then extend your elbows to lift it back up.",
+      "sets": 3,
+      "rest": "60s",
+      "gifUrl": "https://api.exercisedb.io/image/Kf91Px"
+    },
+    {
+      "name": "Dips",
+      "muscleGroup": "Triceps",
+      "description": "Lower your body by bending your elbows, then push back up to the starting position.",
+      "sets": 3,
+      "rest": "90s",
+      "gifUrl": "https://api.exercisedb.io/image/Yf9Sa"
+    },
+    {
+      "name": "Dumbbell Shoulder Press",
+      "muscleGroup": "Shoulders",
+      "description": "Sit down and push the dumbbells overhead until your arms are fully extended.",
+      "sets": 4,
+      "rest": "60-90s",
+      "gifUrl": "https://api.exercisedb.io/image/Qw91r"
+    }
+  ],
+  "workoutB": [
+    {
+      "name": "Barbell Squat",
+      "muscleGroup": "Legs",
+      "description": "Lower your hips until your thighs are parallel to the floor, then stand back up.",
+      "sets": 4,
+      "rest": "90s",
+      "gifUrl": "https://api.exercisedb.io/image/Ty91K"
+    },
+    {
+      "name": "Leg Press",
+      "muscleGroup": "Legs",
+      "description": "Push the platform with your legs until your knees are nearly extended, then return slowly.",
+      "sets": 4,
+      "rest": "60-90s",
+      "gifUrl": "https://api.exercisedb.io/image/Ud83S"
+    },
+    {
+      "name": "Leg Extension",
+      "muscleGroup": "Quadriceps",
+      "description": "Sit and extend your legs upward until they are straight.",
+      "sets": 3,
+      "rest": "45-60s",
+      "gifUrl": "https://api.exercisedb.io/image/Ld7Px"
+    },
+    {
+      "name": "Leg Curl",
+      "muscleGroup": "Hamstrings",
+      "description": "Curl your legs downward against the resistance of the machine.",
+      "sets": 3,
+      "rest": "45s",
+      "gifUrl": "https://api.exercisedb.io/image/Ea1Lp"
+    },
+    {
+      "name": "Lunges",
+      "muscleGroup": "Legs & Glutes",
+      "description": "Step forward and lower your body until your back knee nearly touches the floor.",
+      "sets": 3,
+      "rest": "60s",
+      "gifUrl": "https://api.exercisedb.io/image/Ax9De"
+    },
+    {
+      "name": "Glute Bridge",
+      "muscleGroup": "Glutes",
+      "description": "Lie on your back and lift your hips, squeezing your glutes at the top.",
+      "sets": 4,
+      "rest": "45-60s",
+      "gifUrl": "https://api.exercisedb.io/image/Vr5Lp"
+    }
+  ],
+  "workoutC": [
+    {
+      "name": "Lat Pulldown",
+      "muscleGroup": "Back",
+      "description": "Grab the bar with a wide grip and pull it down to your upper chest.",
+      "sets": 4,
+      "rest": "60-90s",
+      "gifUrl": "https://api.exercisedb.io/image/Hy6Tk"
+    },
+    {
+      "name": "Barbell Bent-Over Row",
+      "muscleGroup": "Back",
+      "description": "Bend forward and pull the barbell toward your abdomen.",
+      "sets": 4,
+      "rest": "90s",
+      "gifUrl": "https://api.exercisedb.io/image/Ky8Lp"
+    },
+    {
+      "name": "One-Arm Dumbbell Row",
+      "muscleGroup": "Back",
+      "description": "Support one knee on a bench and pull the dumbbell up toward your torso.",
+      "sets": 3,
+      "rest": "60s",
+      "gifUrl": "https://api.exercisedb.io/image/Er5Lp"
+    },
+    {
+      "name": "Barbell Bicep Curl",
+      "muscleGroup": "Biceps",
+      "description": "Curl the barbell up until it reaches shoulder height, then lower it slowly.",
+      "sets": 3,
+      "rest": "45-60s",
+      "gifUrl": "https://api.exercisedb.io/image/Wy9Fr"
+    },
+    {
+      "name": "Hammer Curl",
+      "muscleGroup": "Biceps",
+      "description": "Hold the dumbbells with a neutral grip and curl them up simultaneously.",
+      "sets": 3,
+      "rest": "45s",
+      "gifUrl": "https://api.exercisedb.io/image/Tu6Pk"
+    },
+    {
+      "name": "Face Pull",
+      "muscleGroup": "Rear Delts",
+      "description": "Pull the rope attachment toward your face, keeping your elbows high.",
+      "sets": 3,
+      "rest": "60s",
+      "gifUrl": "https://api.exercisedb.io/image/Yp9Df"
+    }
+  ]
+}

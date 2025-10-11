@@ -114,7 +114,6 @@ header span {
     width: 100%;
     height: auto;
     aspect-ratio: 16/8;
-    
 }
 #weatherCard {
   display: flex;
@@ -132,7 +131,6 @@ header span {
     font-weight: bolder;
     font-size: 1.2rem;
 }
-
 #forecastCard {
     margin-top: 15px;
 }
@@ -147,8 +145,6 @@ header span {
     text-decoration: none;
     color: #006184;
 }
-
-
 h1 {
     color: #003057;
     padding: 5px;
@@ -169,7 +165,6 @@ img {
     height: auto;
     display: block;
 }
-
 .cta-btn {
     position: absolute;
     bottom: 20px;
