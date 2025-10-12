@@ -226,3 +226,18 @@ section#home {
     padding: .5rem 1rem;
     border: 1px solid rgb(0, 0, 0 / 10%);
 }
+#final {
+    text-decoration: none;
+    color: #73655A;
+    background-color: #A68C7C;
+    width: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#final:hover {
+    background-color: #f3adad;
+    color: #000000;
+}
+#final-div {
+    margin-bottom: 20px;
+}
