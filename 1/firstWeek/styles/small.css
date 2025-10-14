@@ -226,7 +226,7 @@ section#home {
     padding: .5rem 1rem;
     border: 1px solid rgb(0, 0, 0 / 10%);
 }
-#final {
+.final {
     text-decoration: none;
     color: #73655A;
     background-color: #A68C7C;
@@ -234,7 +234,7 @@ section#home {
     padding: 10px;
     border-radius: 5px;
 }
-#final:hover {
+.final:hover {
     background-color: #f3adad;
     color: #000000;
 }
