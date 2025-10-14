@@ -18,7 +18,7 @@ async function getRecipes(foods) {
                     <h2>${meal.strMeal}</h2>
                     <p><strong>Categorie:</strong> ${meal.strCategory}</p>
                     <p><strong>Origin:</strong> ${meal.strArea}</p>
-                    <p>${meal.strInstructions.substring(0, 100)}...</p>
+                    <p>${meal.strInstructions}</p>
                     <a href="${meal.strYoutube}" target="_blank" style="color:#C80036;">See video</a>
                 </div>
                 `
