@@ -36,7 +36,7 @@ async function getRecipes(foods) {
                 container.appendChild(msg);
             }
         } catch (error) {
-            console.error("Erro ao carregar receitas:", error);
+            console.error("Error to load recipes:", error);
             const msg = document.createElement("p");
             msg.textContent = `Error loading recipes for "${food}". Please try again later.`;
             msg.style.color = "red";
