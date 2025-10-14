@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <!-- My scripts -->
      <script src="scripts/navigation.js" defer></script>
-     <script type="module" src="scripts/exercises.js"></script>
+     <script src="scripts/recipes.js" defer></script>
 </head>
 <body>
      <div id="div-nav">
@@ -35,21 +35,20 @@
           </header>
           <nav id="nav-bar" class="navigation">
                <ul>
-                    <li><a class="current" href="index.html">Home</a></li>
-                    <li><a href="food.html">Food</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="food.html">Food</a></li>
                     <li><a href="consultancy.html">Consultancy</a></li>
                </ul>
           </nav>
      </div>
    
    <main>
-     <h1>Discover the workouts to get started at the gym</h1>
-     <div id="btns">
-          <button id="btn-a">Workout A</button>
-          <button id="btn-b">Workout B</button>
-          <button id="btn-c">Workout C</button>
-          <div id="exercise-container" class="exercise-container"></div>
-     </div>
+        <h1>Healthy Pre and Post-Workout Recipes</h1>
+        <div class="recipe-buttons">
+            <button id="pre-btn" class="active">Pre-Workout</button>
+            <button id="post-btn">Post-Workout</button>
+        </div>
+        <section id="recipe-container" class="recipe-container"></section>
    </main>
    
    <footer>
