@@ -6,7 +6,7 @@
       "description": "Lie on a flat bench and push the barbell from your chest until your arms are extended.",
       "sets": 4,
       "rest": "60-90s",
-      "gifUrl": "https://robrib1820.github.io/wdd231/images/Barbell-Bench-Press.webp"
+      "gifUrl": "images/Barbell-Bench-Press.webp"
     },
     {
       "name": "Incline Dumbbell Press",
@@ -14,7 +14,7 @@
       "description": "Lie on an incline bench and push the dumbbells toward the ceiling until your arms are extended.",
       "sets": 3,
       "rest": "60s",
-      "gifUrl": "https://api.exercisedb.io/image/F1G2fH"
+      "gifUrl": "images/Incline-Dumbbell-Press.webp"
     },
     {
       "name": "Cable Crossover",
@@ -22,7 +22,7 @@
       "description": "Pull the cables across your body until your hands meet in front of your chest.",
       "sets": 3,
       "rest": "45-60s",
-      "gifUrl": "https://api.exercisedb.io/image/Pw3Qd2"
+      "gifUrl": "images/Cable-Crossover.webp"
     },
     {
       "name": "Skull Crusher",
@@ -30,7 +30,7 @@
       "description": "Lie on a bench, lower the bar to your forehead, then extend your elbows to lift it back up.",
       "sets": 3,
       "rest": "60s",
-      "gifUrl": "https://api.exercisedb.io/image/Kf91Px"
+      "gifUrl": "images/Skull-Crusher.webp"
     },
     {
       "name": "Dips",
@@ -38,7 +38,7 @@
       "description": "Lower your body by bending your elbows, then push back up to the starting position.",
       "sets": 3,
       "rest": "90s",
-      "gifUrl": "https://api.exercisedb.io/image/Yf9Sa"
+      "gifUrl": "images/Dips.webp"
     },
     {
       "name": "Dumbbell Shoulder Press",
@@ -46,7 +46,7 @@
       "description": "Sit down and push the dumbbells overhead until your arms are fully extended.",
       "sets": 4,
       "rest": "60-90s",
-      "gifUrl": "https://api.exercisedb.io/image/Qw91r"
+      "gifUrl": "images/Dumbbell-Shoulder-Press.webp"
     }
   ],
   "workoutB": [
@@ -56,7 +56,7 @@
       "description": "Lower your hips until your thighs are parallel to the floor, then stand back up.",
       "sets": 4,
       "rest": "90s",
-      "gifUrl": "https://api.exercisedb.io/image/Ty91K"
+      "gifUrl": "images/Barbell-Squat.webp"
     },
     {
       "name": "Leg Press",
@@ -64,7 +64,7 @@
       "description": "Push the platform with your legs until your knees are nearly extended, then return slowly.",
       "sets": 4,
       "rest": "60-90s",
-      "gifUrl": "https://api.exercisedb.io/image/Ud83S"
+      "gifUrl": "images/Leg-Press.webp"
     },
     {
       "name": "Leg Extension",
@@ -72,7 +72,7 @@
       "description": "Sit and extend your legs upward until they are straight.",
       "sets": 3,
       "rest": "45-60s",
-      "gifUrl": "https://api.exercisedb.io/image/Ld7Px"
+      "gifUrl": "images/Leg-Extension.webp"
     },
     {
       "name": "Leg Curl",
@@ -80,7 +80,7 @@
       "description": "Curl your legs downward against the resistance of the machine.",
       "sets": 3,
       "rest": "45s",
-      "gifUrl": "https://api.exercisedb.io/image/Ea1Lp"
+      "gifUrl": "images/Leg Curl.webp"
     },
     {
       "name": "Lunges",
@@ -88,7 +88,7 @@
       "description": "Step forward and lower your body until your back knee nearly touches the floor.",
       "sets": 3,
       "rest": "60s",
-      "gifUrl": "https://api.exercisedb.io/image/Ax9De"
+      "gifUrl": "images/Lunges.webp"
     },
     {
       "name": "Glute Bridge",
@@ -96,7 +96,7 @@
       "description": "Lie on your back and lift your hips, squeezing your glutes at the top.",
       "sets": 4,
       "rest": "45-60s",
-      "gifUrl": "https://api.exercisedb.io/image/Vr5Lp"
+      "gifUrl": "images/Glute-Bridge.webp"
     }
   ],
   "workoutC": [
