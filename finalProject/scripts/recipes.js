@@ -30,8 +30,6 @@ async function getRecipes(foods) {
 const preWorkout = ["oat", "banana", "smoothie", "egg", "avocado"];
 const postWorkout = ["chicken", "salmon", "rice", "pasta", "protein"];
 
-getRecipes(preWorkout);
-
 preBtn.addEventListener("click", () => {
     preBtn.classList.add("active");
     postBtn.classList.remove("active");
